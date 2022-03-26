@@ -21,10 +21,10 @@ app.post("/login",login);
 app.use("/products",productController);
 
 
-app.listen(6692, async (req,res)=>{
+app.listen(6333, async (req,res)=>{
     try {
         await connect();
-        console.log("port is here 6692 ")
+        console.log("port is here 6333 ")
     } catch (error) {
         console.log(error.message);
     }
